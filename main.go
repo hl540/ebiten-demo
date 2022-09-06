@@ -19,7 +19,8 @@ func main() {
 	// game := tour.Fill{}
 	// game := tour.Image{}
 	// game := tour.Geom{}
-	game := examples.Animation{}
+	// game := examples.Animation{}
+	game := examples.Blur{}
 	if err := game.Run(); err != nil {
 		log.Fatal(err)
 	}
