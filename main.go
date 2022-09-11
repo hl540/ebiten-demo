@@ -20,7 +20,12 @@ func main() {
 	// game := tour.Image{}
 	// game := tour.Geom{}
 	// game := examples.Animation{}
-	game := examples.Blur{}
+	// game := examples.Blur{}
+	// game := examples.Floog{}
+	// game := examples.Font{}
+	// game := examples.Hsv{}
+	// game := examples.InfiniteScroll{}
+	game := examples.Life{}
 	if err := game.Run(); err != nil {
 		log.Fatal(err)
 	}
